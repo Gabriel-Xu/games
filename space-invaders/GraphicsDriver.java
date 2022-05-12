@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
 
-public class Lab8BLACK {
+public class GraphicsDriver {
    public static void main(String[] args) {
       JFrame frame = new JFrame("SPACE INVADERS");
       frame.setSize(850, 600);
