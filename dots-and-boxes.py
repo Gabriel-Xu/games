@@ -107,8 +107,7 @@ def addscore(board, row, column, player):
     if templist2.count(" ")<=0 and y==True:
         if player=="B":
             badd+=1
-        elif player=="R":
-            radd+=1
+        elif player=="R": radd+=1
     return badd, radd
 
 def isfull(board):
