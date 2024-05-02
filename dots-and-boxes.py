@@ -65,8 +65,7 @@ def startgame():
             rcount+=row.count("R")
         if bcount<=rcount:
             firstplayer="B"
-        else:
-            firstplayer="R"
+        else: firstplayer="R"
     else: print("WRONG INPUT")
     game(board, firstplayer, 0, 0)
 
