@@ -67,8 +67,7 @@ def startgame():
             firstplayer="B"
         else:
             firstplayer="R"
-    else:
-        print("WRONG INPUT")
+    else: print("WRONG INPUT")
     game(board, firstplayer, 0, 0)
 
 def addscore(board, row, column, player):
