@@ -9,19 +9,40 @@ A collection of simple playable games written in Java and Python.
 
 ## Getting Started
 
-Clone the repository and open the game you want to try. Follow the instructions in each source file, if provided, to compile and run it.
+Clone the repository and open the game you want to try.
 
-For Java programs, compile and run a file with:
+### Java games
+
+Each Java game is made up of multiple source files. Compile all of the Java files in the game's folder, then run `GraphicsDriver.java` to start the game.
+
+#### Block game
+
+From the `block-game` directory:
 
 ```bash
-javac GameName.java
-java GameName
+javac *.java
+java GraphicsDriver
 ```
 
-For Python programs, run a file with:
+Run `GraphicsDriver.java`; the other Java files provide the game's supporting classes.
+
+#### Space Invaders
+
+From the `space-invaders` directory:
+
+```bash
+javac *.java
+java GraphicsDriver
+```
+
+Run `GraphicsDriver.java`; the other Java files provide the game's supporting classes.
+
+### Python games
+
+Run a Python game with:
 
 ```bash
 python game_name.py
 ```
 
-Replace the example filenames with the name of the game you want to play.
+Replace the example filename with the name of the game you want to play.
