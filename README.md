@@ -2,10 +2,6 @@
 
 A collection of simple playable games written in Java and Python.
 
-## About
-
-This repository contains a few beginner-friendly games that I have programmed. The projects are intended for practice and experimentation, so some of the Java games may still contain bugs.
-
 ## Languages
 
 - Java
@@ -29,7 +25,3 @@ python game_name.py
 ```
 
 Replace the example filenames with the name of the game you want to play.
-
-## Contributing
-
-Suggestions, bug reports, and improvements are welcome.
